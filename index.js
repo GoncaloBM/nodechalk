@@ -1,3 +1,5 @@
-const chalk = require('chalk');
- 
-console.log(chalk.blue('Hello world!'));
+const chalk = require("chalk");
+
+const colleagues = ["André", "Guilherme", "Silvia", "João"];
+
+colleagues.forEach((colleagues) => console.log(chalk.red(colleagues)));
